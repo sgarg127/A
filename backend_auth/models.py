@@ -55,6 +55,8 @@ from .manager import *
 #     class Meta:
 #         verbose_name = "Custom User"
 
+#fresh code with manager.py file
+
 class CustomUser(AbstractBaseUser):
    
     
