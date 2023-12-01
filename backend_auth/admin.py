@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import  Useradmin
-from .model import *
+from .models import *
 
 # customize how admin panel will look like after we have created new custom user model 
 
