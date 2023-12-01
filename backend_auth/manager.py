@@ -49,7 +49,7 @@ class UserManager(BaseUserManager):
 
         user.save(using=self.db)
         return user 
-    #just to check if working 
+    
 
     def create_manager(self,email,username,phone_number,password):
 
