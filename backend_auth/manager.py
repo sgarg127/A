@@ -59,7 +59,7 @@ class UserManager(BaseUserManager):
             phone_number=phone_number,
             password=password)
         
-        user.is_admin=False
+        user.is_admin=False 
         user.is_staff=True
         user.is_superuser=False
 
