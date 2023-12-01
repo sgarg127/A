@@ -2,7 +2,7 @@ from rest_framework.serializers import ModelSerializer
 from .models import CustomUserModel
 from django.conf import settings
 
-class CustomUserModelSerializer(ModelSerilaizer):
+class CustomUserModelSerializer(ModelSerializer):
     class Meta:
         model = CustomUserModel
         fields = [
